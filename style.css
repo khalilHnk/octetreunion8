@@ -67,6 +67,9 @@ li::after{
 li.act::after{
     content:'I'
 }
+h1+pre{
+    font-size:12px
+}
 h2+pre,
 li::before,
 i{
