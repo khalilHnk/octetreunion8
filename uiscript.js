@@ -16,7 +16,7 @@
                 }
                 const A = Array(size).fill('0');
                 oct.addEventListener(
-                    'mousedown',
+                    'mouseup',
                     (e) => {
                         if (!(e.target instanceof HTMLLIElement && e.target.dataset.pos)) {
                             console.warn('[li.event]:failed');
